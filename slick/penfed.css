@@ -1,0 +1,123 @@
+* {
+    backface-visibility: hidden;
+}
+
+body {
+    background: #223041;
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 700px;
+    text-transform: uppercase;
+
+}
+
+
+/* Navigation ----------------------------------------*/
+
+.slider.navigation { 
+    width: 250px;
+    position: fixed;
+    right: 50px;
+    top: 150px;
+    margin: 0;
+    bottom: 50px;
+    background: #384554;
+    text-align: center;
+    color: rgba(255,255,255,.4);
+}
+
+.slider.navigation .slick-list {
+    padding: 0 !important;
+}
+
+.navigation .slick-slide {
+    color: rgba(255,255,255,.4);   
+    transition: linear all 200ms;
+    padding: 50px 0;
+    height: calc((100vh-200px) / 6);
+    border-bottom: 2px solid rgba(255,255,255,.1);
+}
+
+.navigation .slick-slide.slick-current {
+    color: rgba(255,255,255,1);   
+}
+
+
+/* Primary ----------------------------------------*/
+
+
+.slider.primary {
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    right: 300px;
+    top: 150px;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    width: calc(100vw - 350px);
+}
+
+.slider.primary .slick-list {
+    margin: 0;
+    padding: 0;
+
+}
+
+.slider.primary .slick-list .slick-slide {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: calc(100vh - 200px);
+    background-size: cover;
+    background-position: center;
+}
+
+.slider.primary h2{
+    text-transform: uppercase;
+    font-size: 48px;
+    color: black;
+    margin-left: 100px;
+    margin-top: -15px;
+    width: 66%;
+}
+
+.slider.primary h3 {
+    margin-left: 100px;
+    margin-top: 150px;
+    color: #019CDB;
+}
+
+/* Tiles ----------------------------------------*/
+
+.slider.tile {
+    position: fixed;
+    left: 50px;
+    bottom: 15px;
+    margin: 0;
+    padding: 0;
+    right: 200px;
+    width: calc(100vw - 350px);
+    -webkit-mask-box-image: -webkit-linear-gradient(transparent 0px, black 80px);
+    
+}
+
+.slider.tile .slick-slide {
+    opacity: 1;
+    transition: 500ms linear all;
+/*    transform: scale(.95);*/
+}
+
+.slider.tile .slick-slide img{
+    margin: 50px 0 0 0 ;
+}
+
+.slider.tile .slick-slide.slick-current {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.slider.tile .slick-list {
+    margin: 0;
+    padding: 0;
+}
