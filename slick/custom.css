@@ -95,13 +95,24 @@ ul li { list-style:none; }
 
 /* END OF HEADER CSS */
 
-/* 
-	custom CSS code for restructuring
+/* custom CSS code for restructuring tiles */
 
-										*/
     .left {
         float: left;
     }
+
+    .cyangreen{
+        background-color: #34C5B6;    
+    }
+
+    .darkblue{
+        background-color: #1C3150;
+    }
+
+    .lightblue {
+        background: #009ADA;
+    }
+    
 
     .squareTile .firstTileText{
         text-transform: capitalize;
@@ -150,7 +161,7 @@ ul li { list-style:none; }
 
     .tileRow .squareTile{
         /*width: 21.2%;*/
-        background: #009ADA;
+        
         padding: 2%;
         width: 235px;
         margin-right: 15px;
@@ -159,7 +170,7 @@ ul li { list-style:none; }
 
     .tileRow .rectangleTile{
         /*width: 21.2%;*/
-        background: #1C3150;
+        
         padding: 2px;
         width: 235px;
         height: 80px;
@@ -178,14 +189,14 @@ ul li { list-style:none; }
 
     .squareTile .mapIcon{
         width: 20px;
-        margin-left: 10px;
-        margin-top: 3%;
+        margin-left: 10px !important;
+        margin-top: 3% !important;
     }
 
     .rectangleTile .mapIcon{
         width: 14px;
-        margin-left: 3px;
-        margin-top: 3%;
+        margin-left: 3px !important;
+        margin-top: 3% !important;
     }
 
     .rectangleTile .firstTileLocationText{
