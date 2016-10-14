@@ -112,7 +112,10 @@ ul li { list-style:none; }
     .lightblue {
         background: #009ADA;
     }
-    
+
+    .coffee{
+        background: #EAAD80
+    }    
 
     .squareTile .firstTileText{
         text-transform: capitalize;
@@ -164,8 +167,34 @@ ul li { list-style:none; }
         
         padding: 2%;
         width: 235px;
+        height: 170px;
         margin-right: 15px;
         margin-left: 15px;
+    }
+
+    .tileRow .minisquareTile{
+        width: 105px;
+        height: 80px;
+    }
+
+    .tileRow .minisquareTile > .heading{
+        font-size: 8px;
+        margin-bottom: 7px;
+        margin-top: 10px;
+    }
+
+    .tileRow .minisquareTile > .text{
+        font-size: 2em;
+    }
+
+    .tileRow .minisquareTile > .text{
+        font-size: 8px;
+    }
+
+    .tileRow .minisquareTile .mainIcon{
+        width: 45%;
+        height: 45%;
+        margin: auto !important;
     }
 
     .tileRow .rectangleTile{
@@ -177,6 +206,34 @@ ul li { list-style:none; }
         margin-right: 15px;
         margin-left: 10px;
         margin-bottom: 10px;
+    }
+
+
+    .tileRow .listTile{
+        
+        width: 235px;
+        height: 170px;
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 21px;
+    }
+
+    .listTile li{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        list-style-type: disc;
+    }
+     .tileRow .imageTile{
+        width: 235px;
+        height: 170px;
+    }
+
+     .tileRow .imageTile img{
+        width: 100%;
+        height: 100%;
+        margin: 0px 0px !important;
+
+
     }
 
     .tileRow .squareTile:first-of-type{
@@ -191,6 +248,22 @@ ul li { list-style:none; }
         width: 20px;
         margin-left: 10px !important;
         margin-top: 3% !important;
+    }
+
+    .squareTile .smallHeading{
+        font-size: 14px;
+            margin-top: 7px;
+    }
+
+    .squareTile .largeText{
+        font-size: 5em;
+    }
+
+  
+
+
+    .centerAlign{
+        text-align: center;
     }
 
     .rectangleTile .mapIcon{
