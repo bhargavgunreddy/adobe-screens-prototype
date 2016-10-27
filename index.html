@@ -257,13 +257,22 @@
         </div>
     </section>
     
+    
+    <div class="marqueeDiv">
+      <span class = "label left lightblue">PENFED NEWS</span>
+      <span class = "marquee left">Lorem Ipsum is simply dummy text of the printing </span> 
+      
+    </div>
+    
 
     <script src="./slick/jquery.min.js" type="text/javascript"></script>
     <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./slick/jquery.marquee.js" type="text/javascript"></script>
+
     <script type="text/javascript">
       
 
-  $(document).ready(function(){
+      $(document).ready(function(){
 
        $(".slider").not(".navigation").slick({
           vertical: true,
@@ -275,8 +284,7 @@
           dots: false,
           speed: 1000,
           autoplay: true,
-          autoplaySpeed: 5000,
-          
+          autoplaySpeed: 5000
         });
 
         $(".navigation").slick({
@@ -291,10 +299,24 @@
           autoplay: true,
           autoplaySpeed: 5500,
           speed: 500,
-          infinite: true,
-          
+          infinite: true
         });
-        
+
+     
+        $('.marquee').marquee({
+            //speed in milliseconds of the marquee
+            duration: 5000,
+            //gap in pixels between the tickers
+            gap: 50,
+            //time in milliseconds before the marquee will start animating
+            delayBeforeStart: 0,
+            //'left' or 'right'
+          
+            direction: 'left',
+            //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: true
+        });
+              
 
       });
     </script>
