@@ -366,7 +366,7 @@ ul li { list-style:none; }
     .marquee {
       width: 960px;
       overflow: hidden;
-      border: 1px solid #ccc;
+      /*border: 1px solid #ccc;*/
       background: #ccc;
       margin-left: 5px;
     }
@@ -385,7 +385,13 @@ ul li { list-style:none; }
     .marqueeDiv .marquee {
         width: 85%;
         padding-left: 5%;
+        background: #384554;
     }
+
+   /* .marqueeDiv .marquee:after {
+        content: "|";
+    }*/
+   
 
 
     
